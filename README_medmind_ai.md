@@ -27,24 +27,24 @@ User / Caregiver
 ┌─────────────────────────────────────────────┐
 │           Voice Interface Layer             │
 │                                             │
-│  ┌──────────────┐    ┌──────────────────┐  │
-│  │ Speech-to-   │    │  Text-to-Speech  │  │
-│  │ Text (STT)   │    │  (TTS) — gTTS    │  │
-│  │ SpeechRecog  │    │  Audio Streaming │  │
-│  │ + ffmpeg     │    │  via Flask API   │  │
-│  └──────┬───────┘    └──────────────────┘  │
+│  ┌──────────────┐    ┌──────────────────┐   │
+│  │ Speech-to-   │    │  Text-to-Speech  │   │
+│  │ Text (STT)   │    │  (TTS) — gTTS    │   │
+│  │ SpeechRecog  │    │  Audio Streaming │   │
+│  │ + ffmpeg     │    │  via Flask API   │   │
+│  └──────┬───────┘    └──────────────────┘   │
 └─────────┼───────────────────────────────────┘
           │
           ▼
 ┌─────────────────────────────────────────────┐
 │            Flask REST API Backend           │
 │                                             │
-│  /transcribe  → STT processing             │
-│  /speak       → TTS audio generation       │
-│  /medicines   → CRUD operations            │
-│  /medicines/details → KB lookup            │
-│  /check-interactions → Drug safety check   │
-│  /signup, /login → User auth               │
+│  /transcribe  → STT processing              │
+│  /speak       → TTS audio generation        │
+│  /medicines   → CRUD operations             │
+│  /medicines/details → KB lookup             │
+│  /check-interactions → Drug safety check    │
+│  /signup, /login → User auth                │
 └─────────┬───────────────────────────────────┘
           │
           ▼
@@ -52,22 +52,22 @@ User / Caregiver
 │       Medication Knowledge Base             │
 │       (medicationkb.json)                   │
 │                                             │
-│  36 curated drugs                          │
-│  Generic + brand name lookup              │
-│  Dosage, uses, interactions               │
-│  Food, alcohol, drug-drug interactions    │
+│  36 curated drugs                           │
+│  Generic + brand name lookup                │
+│  Dosage, uses, interactions                 │
+│  Food, alcohol, drug-drug interactions      │
 │                                             │
-│  Sources: FDA OpenFDA · Mayo Clinic        │
-│           Drugs.com · MedlinePlus          │
+│  Sources: FDA OpenFDA · Mayo Clinic         │
+│           Drugs.com · MedlinePlus           │
 └─────────────────────────────────────────────┘
           │
           ▼
 ┌─────────────────────────────────────────────┐
 │         Reminder & Notification System      │
 │                                             │
-│  APScheduler → Daily cron reminders        │
-│  Flask-Mail  → Email notifications         │
-│  React Native Frontend (by collaborator)   │
+│  APScheduler → Daily cron reminders         │
+│  Flask-Mail  → Email notifications          │
+│  React Native Frontend (by collaborator)    │
 └─────────────────────────────────────────────┘
 ```
 
