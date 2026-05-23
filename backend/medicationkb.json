@@ -1,0 +1,1447 @@
+{
+  "medications": {
+    "alprozolam": {
+      "generic_name": "alprozolam",
+      "brand_names": [
+        "Xanax",
+        "Xanax XR"
+      ],
+      "dosages_mg": [
+        0.5,1,3,6,10
+      ],
+      "intended_use": "A sedative medication used to help with panic attacks and anxiety including anxiety that is related to depression.",
+      "interactions": [
+        {
+          "type": "food",
+          "details": "For Xanax (immediate-release), it can be taken with or without food. For Xanax XR (extended-release), it can be taken with or without food, but tablets must be swallowed whole and should not be crushed, chewed, or broken."
+        },
+        {
+          "type": "alcohol",
+          "details": "Avoid alcohol. Alcohol can increase the CNS depressant effects of alprazolam, leading to profound sedation, respiratory depression, coma, and death. For Xanax XR, alcohol can increase the release rate of the extended-release formulation, leading to a risk of overdose."
+        },
+        {
+          "type": "other_drugs",
+          "interactions_list": [
+            {
+              "interactant": "Opioids",
+              "interaction_type": "Increased risk of respiratory depression and death",
+              "details": "Concomitant use is associated with a boxed warning for profound sedation, respiratory depression, and death. Reserve for when no alternatives are adequate, limit doses, and monitor closely."
+            },
+            {
+              "interactant": "CYP3A4 inhibitors (e.g., clarithromycin, itraconazole)",
+              "interaction_type": "Increased toxicity",
+              "details": "These inhibitors can slow the metabolism of alprazolam, leading to increased plasma concentrations and severe side effects. Use with caution or reduce the dose."
+            }
+          ]
+        }
+      ]
+    },
+    "amlodipine": {
+      "generic_name": "amlodipine",
+      "brand_names": [
+        "Norliqva",
+        "Katerzia",
+        "Norvasc"
+      ],
+      "dosages_mg": [
+        2.5,5,10
+      ],
+      "intended_use": "A heart medication used to treat high blood pressure and chest pain caused by heart disease.",
+      "interactions": [
+        {
+          "type": "food",
+          "details": "Amlodipine can be taken with or without food. However, grapefruit products should be used with caution, as they can increase amlodipine plasma concentrations."
+        },
+        {
+          "type": "alcohol",
+          "details": "Alcohol can have an additive blood pressure-lowering effect. Use with caution to avoid symptomatic hypotension, dizziness, and fainting."
+        },
+        {
+          "type": "other_drugs",
+          "interactions_list": [
+            {
+              "interactant": "Dantrolene",
+              "interaction_type": "Contraindicated",
+              "details": "Concomitant use is contraindicated due to a risk of cardiovascular collapse and marked hyperkalemia."
+            },
+            {
+              "interactant": "CYP3A4 inhibitors (e.g., itraconazole, clarithromycin)",
+              "interaction_type": "Increased toxicity",
+              "details": "These drugs can increase amlodipine plasma concentrations, raising the risk of adverse effects. Use with caution and consider a dose reduction."
+            },
+            {
+              "interactant": "CYP3A4 inducers (e.g., rifampin)",
+              "interaction_type": "Decreased efficacy",
+              "details": "These drugs can decrease amlodipine plasma concentrations, potentially reducing its therapeutic effect. Monitor blood pressure closely."
+            }
+          ]
+        }
+      ]
+    },
+    "atorvastatin": {
+      "generic_name": "atorvastatin",
+      "brand_names": [
+        "Lipitor",
+        "Atorvaliq"
+      ],
+      "dosages_mg": [
+        10,20,40
+      ],
+      "intended_use": "A medication used to lower the amount of cholesterol in the blood and decrease the chance of having a heart attack or stroke.",
+      "interactions": [
+        {
+          "type": "food",
+          "details": "Avoid grapefruit products. Grapefruit juice can significantly increase atorvastatin levels in the blood, increasing the risk of muscle toxicity. Atorvastatin can be taken with or without other food."
+        },
+        {
+          "type": "alcohol",
+          "details": "Avoid excessive alcohol use. Alcohol can increase the risk of liver damage and may raise triglyceride levels, counteracting the drug's intended effect."
+        },
+        {
+          "type": "other_drugs",
+          "interactions_list": [
+            {
+              "interactant": "CYP3A4 inhibitors (e.g., clarithromycin, itraconazole)",
+              "interaction_type": "Increased toxicity",
+              "details": "These drugs can significantly increase atorvastatin plasma concentrations, raising the risk of myopathy and rhabdomyolysis. Dose adjustments are required or concomitant use should be avoided."
+            },
+            {
+              "interactant": "Fibric acid derivatives (e.g., gemfibrozil) and high-dose niacin",
+              "interaction_type": "Increased risk of myopathy",
+              "details": "Concomitant use significantly increases the risk of muscle-related adverse events. Use with caution and monitor for muscle pain or weakness."
+            },
+            {
+              "interactant": "Warfarin",
+              "interaction_type": "No significant interaction",
+              "details": "Atorvastatin has no clinically significant effect on prothrombin time, but monitoring is still recommended when starting or stopping the drug."
+            }
+          ]
+        }
+      ]
+    },
+    "benazepril": {
+      "generic_name": "benazepril",
+      "brand_names": [
+        "Lotensin"
+      ],
+      "dosages_mg": [
+        5,10
+      ],
+      "intended_use": "A medication used to treat high blood pressure.",
+      "interactions": [
+        {
+          "type": "food",
+          "details": "Food does not alter the bioavailability of benazepril."
+        },
+        {
+          "type": "alcohol",
+          "details": "Alcohol can have an additive blood pressure-lowering effect. Use with caution to avoid symptomatic hypotension, dizziness, and fainting."
+        },
+        {
+          "type": "other_drugs",
+          "interactions_list": [
+            {
+              "interactant": "Potassium-sparing diuretics or potassium supplements",
+              "interaction_type": "Increased risk of hyperkalemia",
+              "details": "Can increase serum potassium levels, especially in patients with impaired renal function. Monitor serum potassium closely."
+            },
+            {
+              "interactant": "NSAIDs",
+              "interaction_type": "Decreased efficacy and renal impairment",
+              "details": "Can reduce the blood pressure-lowering effect of benazepril and may cause a deterioration of renal function. Monitor blood pressure and renal function closely."
+            },
+            {
+              "interactant": "Neprilysin inhibitors",
+              "interaction_type": "Increased risk of angioedema",
+              "details": "Concomitant use with a neprilysin inhibitor is contraindicated due to a significantly increased risk of angioedema."
+            },
+            {
+              "interactant": "Lithium",
+              "interaction_type": "Increased toxicity",
+              "details": "Benazepril can reduce the renal clearance of lithium, leading to increased plasma levels and a risk of toxicity. Monitor serum lithium levels closely."
+            }
+          ]
+        }
+      ]
+    },
+    "benzgalantamine": {
+      "generic_name": "benzgalantamine",
+      "brand_names": [
+        "Zunveyl"
+      ],
+      "dosages_mg": [
+        5
+      ],
+      "intended_use": "A medication designed to alleviate dementia symptoms in Alzheimer's patients, with modifications designed to minimize side effects.",
+      "interactions": [
+        {
+          "type": "food",
+          "details": "Can be taken with or without food."
+        },
+        {
+          "type": "alcohol",
+          "details": "Avoid alcohol. The extended-release formulation can be compromised by alcohol, leading to a rapid release of the entire dose and a significant risk of severe side effects."
+        },
+        {
+          "type": "other_drugs",
+          "interactions_list": [
+            {
+              "interactant": "Anticholinergic medications",
+              "interaction_type": "Decreased efficacy",
+              "details": "As a prodrug of galantamine, Zunveyl will counteract the effects of anticholinergic drugs. Concomitant use should be avoided."
+            },
+            {
+              "interactant": "Bradycardia-inducing drugs (e.g., beta-blockers, digoxin)",
+              "interaction_type": "Increased risk of cardiac side effects",
+              "details": "Zunveyl can cause bradycardia. Concomitant use with other drugs that slow the heart rate can increase the risk of serious cardiac adverse events."
+            },
+            {
+              "interactant": "CYP2D6 or CYP3A4 inhibitors/inducers",
+              "interaction_type": "Altered drug levels",
+              "details": "The metabolism of galantamine is influenced by these enzymes. Potent inhibitors (e.g., paroxetine, ketoconazole) can increase its levels, while inducers (e.g., carbamazepine) can decrease them. Monitor for altered therapeutic effect."
+            },
+            {
+              "interactant": "NSAIDs",
+              "interaction_type": "Increased risk of gastrointestinal bleeding",
+              "details": "Both drugs can increase the risk of GI bleeding. Patients should be monitored closely for symptoms of bleeding."
+            }
+          ]
+        }
+      ]
+    },
+    "buspirone": {
+      "generic_name": "buspirone",
+      "brand_names": [
+        "Buspar"
+      ],
+      "dosages_mg": [
+        10,15,20,30,60
+      ],
+      "intended_use": "A medication used over a short term to treat anxiety or combined with other medications to treat depression.",
+      "interactions": [
+        {
+          "type": "food",
+          "details": "To ensure consistent dosing, the dose of buspirone should be administered in a consistent manner, either always with or always without food."
+        },
+        {
+          "type": "alcohol",
+          "details": "The concomitant use of buspirone with alcohol is not recommended due to a potential increase in CNS depressant effects."
+        },
+        {
+          "type": "other_drugs",
+          "interactions_list": [
+            {
+              "interactant": "CYP3A4 inhibitors (e.g., diltiazem, erythromycin)",
+              "interaction_type": "Increased toxicity",
+              "details": "CYP3A4 inhibitors can significantly increase buspirone plasma concentrations, leading to enhanced effects and increased toxicity. A lower starting dose may be recommended, or co-administration should be avoided."
+            },
+            {
+              "interactant": "CYP3A4 inducers (e.g., carbamazepine)",
+              "interaction_type": "Decreased efficacy",
+              "details": "CYP3A4 inducers can decrease buspirone plasma concentrations, potentially reducing its therapeutic effect. Avoid or use an alternate drug."
+            },
+            {
+              "interactant": "Serotonergic drugs (e.g., SSRIs, MAOIs)",
+              "interaction_type": "Increased risk of serotonin syndrome",
+              "details": "Increased serotonin levels may lead to serotonin syndrome or a neuroleptic malignant syndrome-like reaction. Use with caution or avoid."
+            }
+          ]
+        }
+      ]
+    },
+    "clonazepam": {
+      "generic_name": "clonazepam",
+      "brand_names": [
+        "Klonopin"
+      ],
+      "dosages_mg": [
+        0.5,2.3,4
+      ],
+      "intended_use": "A sedative medication used to help with panic attacks, anxiety, and seizures.",
+      "interactions": [
+        {
+          "type": "food",
+          "details": "Can be taken with or without food."
+        },
+        {
+          "type": "alcohol",
+          "details": "Avoid alcohol. Alcohol can increase the CNS depressant effects of clonazepam, leading to severe sedation and respiratory depression."
+        },
+        {
+          "type": "other_drugs",
+          "interactions_list": [
+            {
+              "interactant": "Opioids",
+              "interaction_type": "Increased risk of respiratory depression and death",
+              "details": "Concomitant use is associated with a significantly increased risk of drug-related mortality. Reserve for when no alternatives are adequate, limit doses, and monitor closely."
+            },
+            {
+              "interactant": "Donepezil (Aricept)",
+              "interaction_type": "Increased CNS depression",
+              "details": "Can increase the risk or severity of CNS depression. Use with caution."
+            }
+          ]
+        }
+      ]
+    },
+    "diazepam": {
+      "generic_name": "diazepam",
+      "brand_names": [
+        "Valium"
+      ],
+      "dosages_mg": [
+        2,2.5
+      ],
+      "intended_use": "A sedative medication used to help with panic attacks, anxiety, alcohol withdrawals, and seizures.",
+      "interactions": [
+        {
+          "type": "food",
+          "details": "Grapefruit juice may inhibit the metabolism of diazepam, which can increase its plasma concentrations and the risk of side effects. Use with caution."
+        },
+        {
+          "type": "alcohol",
+          "details": "Avoid alcohol. Concomitant use with alcohol can increase the CNS depressant effects of diazepam, leading to profound sedation, respiratory depression, coma, and death."
+        },
+        {
+          "type": "other_drugs",
+          "interactions_list": [
+            {
+              "interactant": "Opioids",
+              "interaction_type": "Increased risk of respiratory depression and death",
+              "details": "Concomitant use is associated with a boxed warning for profound sedation, respiratory depression, and death. Reserve for when no alternatives are adequate, limit doses, and monitor closely."
+            },
+            {
+              "interactant": "CYP3A4 inhibitors (e.g., cimetidine, clarithromycin)",
+              "interaction_type": "Increased toxicity",
+              "details": "These inhibitors can increase diazepam plasma levels, leading to an increased risk of adverse effects."
+            }
+          ]
+        }
+      ]
+    },
+    "diltiazem": {
+      "generic_name": "diltiazem",
+      "brand_names": [
+        "Cardizem",
+        "Cardizem CD",
+        "Cardizem LA",
+        "Cartia XT",
+        "Dilacor XR",
+        "Dilt-CD",
+        "Diltzac",
+        "Taztia XT",
+        "Tiazac"
+
+      ],
+      "dosages_mg": [
+        120, 180, 240
+      ],
+      "intended_use": "A medication used to lower blood pressure and to treat chronic chest pain or pressure caused by heart disease.",
+      "interactions": [
+        {
+          "type": "food",
+          "details": "Can be taken with or without food, but it is recommended to be taken before meals and at bedtime to minimize adverse effects. Some extended-release formulations may have specific instructions regarding food."
+        },
+        {
+          "type": "alcohol",
+          "details": "Avoid alcohol. Alcohol can increase the release rate of some extended-release diltiazem formulations, leading to a risk of rapid absorption and increased toxicity."
+        },
+        {
+          "type": "other_drugs",
+          "interactions_list": [
+            {
+              "interactant": "Beta-blockers (e.g., propranolol) or digitalis (e.g., digoxin)",
+              "interaction_type": "Increased risk of cardiac side effects",
+              "details": "These drugs can have additive effects on cardiac conduction, leading to a risk of bradycardia and heart block. Use with caution and monitor cardiac function."
+            },
+            {
+              "interactant": "CYP3A4-metabolized statins (e.g., simvastatin, lovastatin)",
+              "interaction_type": "Increased risk of myopathy",
+              "details": "Diltiazem can inhibit CYP3A4, increasing statin levels and raising the risk of myopathy and rhabdomyolysis. Dose adjustments of the statin are necessary, or a non-CYP3A4-metabolized statin should be considered."
+            },
+            {
+              "interactant": "Benzodiazepines (e.g., midazolam)",
+              "interaction_type": "Increased toxicity",
+              "details": "Diltiazem can increase benzodiazepine plasma levels, leading to increased sedation and prolonged effects. Use with caution and consider a dose reduction of the benzodiazepine."
+            },
+            {
+              "interactant": "CYP3A4 inhibitors/inducers",
+              "interaction_type": "Altered diltiazem levels",
+              "details": "Diltiazem is a substrate and inhibitor of CYP3A4. Concomitant use with inhibitors (e.g., itraconazole) can increase diltiazem levels, while inducers (e.g., rifampin) can decrease them. Monitor for altered therapeutic effect."
+            }
+          ]
+        }
+      ]
+    },
+    "donepezil": {
+      "generic_name": "donepezil",
+      "brand_names": [
+        "Aricept",
+        "Aricept ODT"
+      ],
+      "dosages_mg": [
+        5,10
+      ],
+      "intended_use": "A medication used to treat symptoms like confusion, agitation, and memory loss associated with Alzheimer's Disease.",
+      "interactions": [
+        {
+          "type": "food",
+          "details": "Can be taken with or without food. It is often recommended to be taken in the evening to minimize gastrointestinal side effects."
+        },
+        {
+          "type": "alcohol",
+          "details": "Use of alcohol is not explicitly contraindicated, but caution is advised as alcohol can have a CNS depressant effect, which may be additive with donepezil."
+        },
+        {
+          "type": "other_drugs",
+          "interactions_list": [
+            {
+              "interactant": "Anticholinergic medications (e.g., benztropine)",
+              "interaction_type": "Decreased efficacy",
+              "details": "Donepezil is a cholinesterase inhibitor and will counteract the effects of anticholinergic drugs. Concomitant use should be avoided."
+            },
+            {
+              "interactant": "NSAIDs (e.g., ibuprofen, naproxen)",
+              "interaction_type": "Increased risk of gastrointestinal bleeding",
+              "details": "Both donepezil and NSAIDs can increase the risk of GI bleeding. Patients should be monitored closely for symptoms of bleeding."
+            },
+            {
+              "interactant": "Beta-blockers",
+              "interaction_type": "Increased risk of bradycardia",
+              "details": "Both drugs can slow the heart rate, leading to an increased risk of bradycardia. Use with caution and monitor cardiac function."
+            },
+            {
+              "interactant": "CYP2D6 or CYP3A4 inhibitors (e.g., quinidine, ketoconazole)",
+              "interaction_type": "Increased toxicity",
+              "details": "These drugs can increase donepezil plasma concentrations, leading to an increased risk of adverse effects. Use with caution and monitor closely."
+            }
+          ]
+        }
+      ]
+    },
+    "fluvastatin": {
+      "generic_name": "fluvastatin",
+      "brand_names": [
+        "Lescol",
+        "Lescol XL"
+      ],
+      "dosages_mg": [
+        80
+      ],
+      "intended_use": "A medication used to lower the amount of cholesterol in the blood and decrease the chance of having a heart attack or stroke.",
+      "interactions": [
+        {
+          "type": "food",
+          "details": "Can be administered with or without food."
+        },
+        {
+          "type": "alcohol",
+          "details": "Avoid excessive alcohol use. Alcohol can increase the risk of liver damage, a potential side effect of statins."
+        },
+        {
+          "type": "other_drugs",
+          "interactions_list": [
+            {
+              "interactant": "Fluconazole",
+              "interaction_type": "Increased toxicity",
+              "details": "Fluconazole can significantly increase fluvastatin plasma concentrations. Use with caution and monitor for increased adverse effects."
+            },
+            {
+              "interactant": "Bile acid sequestrants (e.g., cholestyramine)",
+              "interaction_type": "Decreased efficacy",
+              "details": "These can delay the absorption of fluvastatin. Fluvastatin should be administered at least 4 hours after taking bile acid sequestrants."
+            },
+            {
+              "interactant": "Warfarin",
+              "interaction_type": "Increased bleeding risk",
+              "details": "Monitor prothrombin times when initiating, discontinuing, or changing the dosage of fluvastatin due to the rare risk of bleeding episodes."
+            }
+          ]
+        }
+      ]
+    },
+    "galantamine": {
+      "generic_name": "galantamine",
+      "brand_names": [
+        "Razadyne (Reminyl)",
+        "Razadyne ER"
+      ],
+      "dosages_mg": [
+        4, 8, 12, 16
+      ],
+      "intended_use": "A medication used to reduce the severity of dementia in patients with Alzheimer's Disease.",
+      "interactions": [
+        {
+          "type": "food",
+          "details": "Should be taken with food to minimize gastrointestinal side effects. Oral solution should be mixed with a non-alcoholic beverage."
+        },
+        {
+          "type": "alcohol",
+          "details": "Avoid alcohol. Alcohol can have an additive CNS depressant effect that may increase dizziness and drowsiness."
+        },
+        {
+          "type": "other_drugs",
+          "interactions_list": [
+            {
+              "interactant": "Anticholinergic medications (e.g., benztropine)",
+              "interaction_type": "Decreased efficacy",
+              "details": "Galantamine is a cholinesterase inhibitor and will counteract the effects of anticholinergic drugs. Concomitant use should be avoided."
+            },
+            {
+              "interactant": "Beta-blockers",
+              "interaction_type": "Increased risk of bradycardia",
+              "details": "Both drugs can slow the heart rate, leading to an increased risk of bradycardia and syncope. Avoid or use with extreme caution."
+            },
+            {
+              "interactant": "CYP2D6 or CYP3A4 inhibitors (e.g., paroxetine, ketoconazole)",
+              "interaction_type": "Increased toxicity",
+              "details": "These drugs can increase galantamine plasma concentrations, leading to an increased risk of adverse effects. Use with caution and monitor closely."
+            },
+            {
+              "interactant": "NSAIDs",
+              "interaction_type": "Increased risk of gastrointestinal bleeding",
+              "details": "Both galantamine and NSAIDs can increase the risk of GI bleeding. Patients should be monitored closely for symptoms of bleeding."
+            }
+          ]
+        }
+      ]
+    },
+    "glimepiride": {
+      "generic_name": "glimepiride",
+      "brand_names": [
+        "Amaryl"
+      ],
+      "dosages_mg": [
+        1
+      ],
+      "intended_use": "A medication that lowers blood sugars in patients with type 2 diabetes.",
+      "interactions": [
+        {
+          "type": "food",
+          "details": "Should be taken with breakfast or the first main meal of the day."
+        },
+        {
+          "type": "alcohol",
+          "details": "Avoid alcohol. Alcohol can increase the risk of hypoglycemia."
+        },
+        {
+          "type": "other_drugs",
+          "interactions_list": [
+            {
+              "interactant": "Colesevelam",
+              "interaction_type": "Decreased efficacy",
+              "details": "Colesevelam can reduce glimepiride plasma concentrations. Glimepiride should be administered at least 4 hours prior to colesevelam."
+            },
+            {
+              "interactant": "Beta-blockers",
+              "interaction_type": "Masked symptoms of hypoglycemia",
+              "details": "Beta-blockers can mask the symptoms of hypoglycemia (e.g., tremor, palpitations). Use with caution and monitor blood glucose closely."
+            },
+            {
+              "interactant": "NSAIDs and other highly protein-bound drugs",
+              "interaction_type": "Increased hypoglycemic effect",
+              "details": "These drugs can displace glimepiride from protein binding sites, increasing the risk of hypoglycemia. Monitor blood glucose closely."
+            }
+          ]
+        }
+      ]
+    },
+    "glipizide": {
+      "generic_name": "glipizide",
+      "brand_names": [
+        "Glucotrol",
+        "Glucotrol XL"
+      ],
+      "dosages_mg": [
+        2.5
+      ],
+      "intended_use": "A diabetes medication the promotes insulin release from the pancreas.",
+      "interactions": [
+        {
+          "type": "food",
+          "details": "Glucotrol should be taken approximately 30 minutes before a meal. Glucotrol XL should be taken with breakfast or the first main meal of the day."
+        },
+        {
+          "type": "alcohol",
+          "details": "Avoid alcohol. Alcohol can increase the risk of hypoglycemia and, in rare cases, a disulfiram-like reaction (flushing, nausea)."
+        },
+        {
+          "type": "other_drugs",
+          "interactions_list": [
+            {
+              "interactant": "Colesevelam",
+              "interaction_type": "Decreased efficacy",
+              "details": "Colesevelam can reduce glipizide plasma concentrations. Glipizide should be administered at least 4 hours prior to colesevelam."
+            },
+            {
+              "interactant": "Beta-blockers",
+              "interaction_type": "Masked symptoms of hypoglycemia",
+              "details": "Beta-blockers can mask the symptoms of hypoglycemia (e.g., tremor, palpitations). Use with caution and monitor blood glucose closely."
+            },
+            {
+              "interactant": "NSAIDs and other highly protein-bound drugs",
+              "interaction_type": "Increased hypoglycemic effect",
+              "details": "These drugs can displace glipizide from protein binding sites, increasing the risk of hypoglycemia. Monitor blood glucose closely."
+            }
+          ]
+        }
+      ]
+    },
+    "hydrochlorothiazide": {
+      "generic_name": "hydrochlorothiazide",
+      "brand_names": [
+        "Microzide"
+      ],
+      "dosages_mg": [
+        12.5,
+        25
+      ],
+      "intended_use": "A medication used to treat high blood pressure as well as swelling from water retention.",
+      "interactions": [
+        {
+          "type": "food",
+          "details": "Can be taken with food to minimize gastrointestinal upset."
+        },
+        {
+          "type": "alcohol",
+          "details": "Avoid alcohol. Alcohol can have an additive blood pressure-lowering effect and increase the risk of dizziness and fainting."
+        },
+        {
+          "type": "other_drugs",
+          "interactions_list": [
+            {
+              "interactant": "Lithium",
+              "interaction_type": "Increased toxicity",
+              "details": "Hydrochlorothiazide can reduce the renal clearance of lithium, leading to increased plasma levels and a risk of toxicity. Monitor serum lithium levels closely."
+            },
+            {
+              "interactant": "NSAIDs",
+              "interaction_type": "Decreased efficacy",
+              "details": "Can reduce the diuretic and blood pressure-lowering effects of hydrochlorothiazide. Monitor blood pressure closely."
+            },
+            {
+              "interactant": "Antidiabetic agents",
+              "interaction_type": "Decreased efficacy",
+              "details": "Hydrochlorothiazide can decrease insulin sensitivity, potentially leading to hyperglycemia. Monitor blood glucose closely."
+            },
+            {
+              "interactant": "Corticosteroids",
+              "interaction_type": "Increased risk of hypokalemia",
+              "details": "Concomitant use can increase the risk of potassium depletion. Monitor serum potassium levels closely."
+            }
+          ]
+        }
+      ]
+    },
+    "hydrocodone": {
+      "generic_name": "hydrocodone",
+      "brand_names": [
+        "Hysingla"
+      ],
+      "dosages_mg": [
+        10, 20
+      ],
+      "intended_use": "To relieve severe and persistent pain in people who are expected to need an opioid pain medication around the clock for a long time and who cannot be treated with other pain medications.",
+      "interactions": [
+        {
+          "type": "food",
+          "details": "Can be taken with or without food."
+        },
+        {
+          "type": "alcohol",
+          "details": "Concomitant use with alcohol is contraindicated. It can lead to a rapid release of the opioid, resulting in profound sedation, respiratory depression, coma, and death."
+        },
+        {
+          "type": "other_drugs",
+          "interactions_list": [
+            {
+              "interactant": "Benzodiazepines or other CNS depressants",
+              "interaction_type": "Increased risk of respiratory depression and death",
+              "details": "Concomitant use is associated with a boxed warning for profound sedation, respiratory depression, and death. Reserve for when no alternatives are adequate, limit doses, and monitor closely."
+            },
+            {
+              "interactant": "CYP3A4 inhibitors (e.g., clarithromycin, itraconazole)",
+              "interaction_type": "Increased toxicity",
+              "details": "These drugs can increase hydrocodone plasma concentrations, raising the risk of respiratory depression and overdose. Use with caution and monitor closely."
+            },
+            {
+              "interactant": "Serotonergic drugs (e.g., SSRIs, SNRIs)",
+              "interaction_type": "Increased risk of serotonin syndrome",
+              "details": "Concomitant use can lead to the development of serotonin syndrome. Monitor for symptoms and discontinue if suspected."
+            }
+          ]
+        }
+      ]
+    },
+    "ibuprofen": {
+      "generic_name": "ibuprofen",
+      "brand_names": [
+        "Advil",
+        "Motrin IB",
+        "Midol"
+      ],
+      "dosages_mg": [
+        400,
+        600,
+        800
+      ],
+      "intended_use": "A pain medication used to relieve pain, fever, inflammation, tenderness, swelling, and stiffness caused by osteoarthritis (arthritis caused by a breakdown of the lining of the joints) and rheumatoid arthritis (arthritis caused by swelling of the lining of the joints). ",
+      "interactions": [
+        {
+          "type": "food",
+          "details": "Can be taken with food or milk to minimize gastrointestinal upset."
+        },
+        {
+          "type": "alcohol",
+          "details": "Avoid alcohol. Concomitant use can increase the risk of gastrointestinal bleeding and liver damage."
+        },
+        {
+          "type": "other_drugs",
+          "interactions_list": [
+            {
+              "interactant": "Anticoagulants (e.g., warfarin) and antiplatelets (e.g., aspirin)",
+              "interaction_type": "Increased bleeding risk",
+              "details": "Can increase the risk of bleeding, especially gastrointestinal bleeding. Close monitoring is required. Ibuprofen can decrease the antiplatelet effects of low-dose aspirin; a specific dosing schedule may be necessary."
+            },
+            {
+              "interactant": "ACE inhibitors (e.g., lisinopril) and ARBs (e.g., losartan)",
+              "interaction_type": "Decreased efficacy and renal impairment",
+              "details": "NSAIDs can reduce the blood pressure-lowering effect of these drugs and may worsen kidney function. Monitor blood pressure and renal function closely."
+            },
+            {
+              "interactant": "Diuretics",
+              "interaction_type": "Decreased efficacy and renal impairment",
+              "details": "Ibuprofen can reduce the diuretic effect and increase the risk of nephrotoxicity, particularly in dehydrated patients."
+            },
+            {
+              "interactant": "SSRIs and SNRIs",
+              "interaction_type": "Increased gastrointestinal bleeding risk",
+              "details": "Co-administration with these antidepressants can increase the risk of bleeding in the stomach and intestines. Use with caution."
+            }
+          ]
+        }
+      ]
+    },
+    "lisinopril": {
+      "generic_name": "lisinopril",
+      "brand_names": [
+        "Prinivil",
+        "Zestril",
+        "Qbrelis"
+      ],
+      "dosages_mg": [
+        2.5,5,10
+      ],
+      "intended_use": "A medication used to lower blood pressure, slow the progression of heart failure, and treat heart attacks.",
+      "interactions": [
+        {
+          "type": "food",
+          "details": "Food does not alter the bioavailability of lisinopril. Avoid excessive intake of high-potassium foods and salt substitutes."
+        },
+        {
+          "type": "alcohol",
+          "details": "Alcohol can have an additive blood pressure-lowering effect. Use with caution to avoid symptomatic hypotension, dizziness, and fainting."
+        },
+        {
+          "type": "other_drugs",
+          "interactions_list": [
+            {
+              "interactant": "Potassium-sparing diuretics (e.g., spironolactone)",
+              "interaction_type": "Increased risk of hyperkalemia",
+              "details": "Lisinopril can increase serum potassium levels. Concomitant use with potassium-sparing diuretics, potassium supplements, or salt substitutes significantly increases the risk of hyperkalemia, especially in patients with impaired renal function. Monitor serum potassium closely."
+            },
+            {
+              "interactant": "NSAIDs (e.g., ibuprofen, naproxen, aspirin)",
+              "interaction_type": "Decreased efficacy and renal impairment",
+              "details": "NSAIDs can reduce the blood pressure-lowering effect of lisinopril. In patients who are elderly, dehydrated, or have pre-existing renal impairment, this combination can lead to a deterioration of renal function, including acute renal failure. Monitor blood pressure and renal function closely."
+            },
+            {
+              "interactant": "Neprilysin inhibitors (e.g., sacubitril)",
+              "interaction_type": "Increased risk of angioedema",
+              "details": "Concomitant use is contraindicated. The combination of an ACE inhibitor with a neprilysin inhibitor can significantly increase the risk of angioedema. Lisinopril should not be administered within 36 hours of switching to or from a neprilysin inhibitor."
+            },
+            {
+              "interactant": "Lithium",
+              "interaction_type": "Increased toxicity",
+              "details": "Lisinopril can reduce the renal clearance of lithium, leading to increased plasma levels and a risk of lithium toxicity. Monitor serum lithium levels closely."
+            },
+            {
+              "interactant": "Antidiabetic agents (e.g., insulin, metformin)",
+              "interaction_type": "Increased risk of hypoglycemia",
+              "details": "Lisinopril may enhance the blood-glucose-lowering effect of antidiabetic drugs. Patients with diabetes should have their blood glucose monitored closely, particularly during the first month of co-administration."
+            }
+          ]
+        }
+      ]
+    },
+    "lorazepam": {
+      "generic_name": "lorazepam",
+      "brand_names": [
+        "Ativan"
+      ],
+      "dosages_mg": [
+        1,2
+      ],
+      "intended_use": "A sedative medication used to help with panic attacks, anxiety, and seizures.",
+      "interactions": [
+        {
+          "type": "food",
+          "details": "Can be taken with or without food."
+        },
+        {
+          "type": "alcohol",
+          "details": "Avoid alcohol. Concomitant use with alcohol can increase the CNS depressant effects of lorazepam, leading to severe drowsiness, dizziness, and respiratory depression."
+        },
+        {
+          "type": "other_drugs",
+          "interactions_list": [
+            {
+              "interactant": "Opioids",
+              "interaction_type": "Increased risk of respiratory depression and death",
+              "details": "Concomitant use is associated with a boxed warning for profound sedation, respiratory depression, and death. Reserve for when no alternatives are adequate, limit doses, and monitor closely."
+            },
+            {
+              "interactant": "CNS depressants (e.g., sedatives, muscle relaxers, antidepressants)",
+              "interaction_type": "Increased CNS depression",
+              "details": "These drugs can increase the sedative effects of lorazepam. Monitor closely and consider a dose reduction of one or both drugs."
+            },
+            {
+              "interactant": "Valproic acid or probenecid",
+              "interaction_type": "Increased toxicity",
+              "details": "These drugs can increase lorazepam plasma concentrations by preventing its clearance, leading to an increased risk of side effects. Consider a dose reduction of lorazepam."
+            }
+          ]
+        }
+      ]
+    },
+    "lovastatin": {
+      "generic_name": "lovastatin",
+      "brand_names": [
+        "Altoprev"
+      ],
+      "dosages_mg": [
+        10, 20, 40, 60
+      ],
+      "intended_use": "A medication used to treat high cholesterol and reduce the risk of cardiovascular disease including heart attacks and stroke.",
+      "interactions": [
+        {
+          "type": "food",
+          "details": "Best taken at bedtime to optimize efficacy. Avoid grapefruit products due to a significantly increased risk of muscle toxicity."
+        },
+        {
+          "type": "alcohol",
+          "details": "Avoid excessive alcohol use. Alcohol can increase the risk of liver damage, a potential side effect of statins."
+        },
+        {
+          "type": "other_drugs",
+          "interactions_list": [
+            {
+              "interactant": "Potent CYP3A4 inhibitors (e.g., itraconazole, erythromycin, HIV protease inhibitors)",
+              "interaction_type": "Increased toxicity",
+              "details": "Concomitant use is strictly contraindicated due to a significantly increased risk of myopathy and rhabdomyolysis. Lovastatin therapy should be suspended if use of these drugs is unavoidable."
+            },
+            {
+              "interactant": "Amiodarone or verapamil",
+              "interaction_type": "Increased risk of myopathy",
+              "details": "The dose of lovastatin should not exceed 40 mg per day when co-administered."
+            },
+            {
+              "interactant": "Warfarin",
+              "interaction_type": "Increased bleeding risk",
+              "details": "Monitor prothrombin time before and during the initial stages of therapy and with any dose changes."
+            }
+          ]
+        }
+      ]
+    },
+    "memantine": {
+      "generic_name": "memantine",
+      "brand_names": [
+        "Namenda",
+        "Namenda XR"
+      ],
+      "dosages_mg": [
+        5,7,10
+      ],
+      "intended_use": "A medication used to treat Alzheimer's disease.",
+      "interactions": [
+        {
+          "type": "food",
+          "details": "Can be taken with or without food."
+        },
+        {
+          "type": "alcohol",
+          "details": "Use of alcohol is not explicitly contraindicated, but caution is advised as it can have a CNS depressant effect that may be additive with memantine."
+        },
+        {
+          "type": "other_drugs",
+          "interactions_list": [
+            {
+              "interactant": "Drugs that alter urine pH (e.g., sodium bicarbonate, carbonic anhydrase inhibitors)",
+              "interaction_type": "Increased toxicity",
+              "details": "Memantine excretion can be decreased when urine pH is alkaline, leading to increased plasma concentrations and a risk of toxicity. Use with caution and monitor for adverse effects."
+            },
+            {
+              "interactant": "Amantadine or dextromethorphan",
+              "interaction_type": "Increased toxicity",
+              "details": "Concomitant use may lead to additive CNS side effects and an increased risk of adverse reactions. Avoid this combination."
+            },
+            {
+              "interactant": "Other drugs cleared by renal tubular secretion (e.g., cimetidine, quinidine)",
+              "interaction_type": "Increased toxicity",
+              "details": "These drugs may compete with memantine for renal clearance, leading to increased memantine plasma concentrations. Monitor for increased adverse effects."
+            }
+          ]
+        }
+      ]
+    },
+    "metformin": {
+      "generic_name": "metformin",
+      "brand_names": [
+        "Fortamet",
+        "Glumetza"
+      ],
+      "dosages_mg": [
+        500
+      ],
+      "intended_use": "AA medication used alongside diet and exercise to control blood sugar in patients with type 2 diabetes.",
+      "interactions": [
+        {
+          "type": "food",
+          "details": "Should be taken with meals. For extended-release formulations, it is typically taken with the evening meal."
+        },
+        {
+          "type": "alcohol",
+          "details": "Avoid excessive alcohol intake. Alcohol can potentiate the effect of metformin on lactate metabolism, increasing the risk of lactic acidosis."
+        },
+        {
+          "type": "other_drugs",
+          "interactions_list": [
+            {
+              "interactant": "Carbonic anhydrase inhibitors (e.g., topiramate)",
+              "interaction_type": "Increased risk of lactic acidosis",
+              "details": "These drugs can increase the risk of lactic acidosis. Monitor patients more frequently for symptoms."
+            },
+            {
+              "interactant": "Drugs that reduce metformin clearance (e.g., ranolazine, cimetidine)",
+              "interaction_type": "Increased toxicity",
+              "details": "These drugs can increase metformin accumulation in the body, raising the risk of lactic acidosis. Use with caution and consider dose adjustments."
+            },
+            {
+              "interactant": "Iodinated contrast agents",
+              "interaction_type": "Increased risk of renal failure and lactic acidosis",
+              "details": "Metformin should be temporarily discontinued before or at the time of a radiologic procedure involving iodinated contrast agents. Therapy should not be restarted until 48 hours after the procedure, after confirming that renal function is normal."
+            }
+          ]
+        }
+      ]
+    },
+    "naproxen": {
+      "generic_name": "naproxen",
+      "brand_names": [
+        "Anaprox",
+        "Anaprox DS",
+        "EC Naprosyn",
+        "Flanax",
+        "Naprelan",
+        "Aleve",
+        "Naprosyn"
+      ],
+      "dosages_mg": [
+        250,275,375,500,750
+      ],
+      "intended_use": "A painkiller used to treat some types of arthritis, joint inflammation, menstrual pain, and mild to moderate pain.",
+      "interactions": [
+        {
+          "type": "food",
+          "details": "Can be taken with food to minimize gastrointestinal upset. Antacids and bile acid sequestrants can delay absorption."
+        },
+        {
+          "type": "alcohol",
+          "details": "Avoid alcohol. Concomitant use can increase the risk of gastrointestinal bleeding and liver damage."
+        },
+        {
+          "type": "other_drugs",
+          "interactions_list": [
+            {
+              "interactant": "Anticoagulants (e.g., warfarin)",
+              "interaction_type": "Increased bleeding risk",
+              "details": "Can increase the risk of bleeding, especially gastrointestinal bleeding. Close monitoring is required."
+            },
+            {
+              "interactant": "ACE inhibitors and ARBs",
+              "interaction_type": "Decreased efficacy and renal impairment",
+              "details": "NSAIDs can reduce the blood pressure-lowering effect of these drugs and may worsen kidney function. Monitor blood pressure and renal function closely."
+            },
+            {
+              "interactant": "Lithium",
+              "interaction_type": "Increased lithium toxicity",
+              "details": "Naproxen can reduce the renal clearance of lithium, leading to increased plasma levels and a risk of toxicity. Monitor serum lithium levels closely."
+            },
+            {
+              "interactant": "Aspirin",
+              "interaction_type": "Increased adverse effects",
+              "details": "Concomitant use is not recommended as it can displace naproxen from protein binding sites, leading to lower plasma concentrations and potentially increased adverse effects."
+            }
+          ]
+        }
+      ]
+    },
+    "nateglinide": {
+      "generic_name": "nateglinide",
+      "brand_names": [
+        "Starlix"
+      ],
+      "dosages_mg": [
+        60,120
+      ],
+      "intended_use": "A medication used to treat diabetes by controlling blood sugar.",
+      "interactions": [
+        {
+          "type": "food",
+          "details": "Should be taken 1 to 30 minutes before a meal. If a meal is skipped, the dose should also be skipped to prevent hypoglycemia."
+        },
+        {
+          "type": "alcohol",
+          "details": "Avoid alcohol. Alcohol can increase the risk of hypoglycemia."
+        },
+        {
+          "type": "other_drugs",
+          "interactions_list": [
+            {
+              "interactant": "Beta-blockers",
+              "interaction_type": "Masked symptoms of hypoglycemia",
+              "details": "Beta-blockers can mask the symptoms of hypoglycemia (e.g., tremor, palpitations). Use with caution and monitor blood glucose closely."
+            },
+            {
+              "interactant": "Other oral antidiabetic agents",
+              "interaction_type": "Increased hypoglycemic effect",
+              "details": "Concomitant use can increase the risk of hypoglycemia. Monitor blood glucose closely."
+            }
+          ]
+        }
+      ]
+    },
+    "oxycodone": {
+      "generic_name": "oxycodone",
+      "brand_names": [
+        "OxyContin",
+        "Xtampza ER",
+        "Roxicodone",
+        "Roxybond"
+      ],
+      "dosages_mg": [
+        3, 5, 10, 15
+      ],
+      "intended_use": "An opioid medication used to treat severe pain.",
+      "interactions": [
+        {
+          "type": "food",
+          "details": "Can be taken with or without food."
+        },
+        {
+          "type": "alcohol",
+          "details": "Concomitant use with alcohol is contraindicated. It can lead to an increase in CNS depression, resulting in profound sedation, respiratory depression, coma, and death."
+        },
+        {
+          "type": "other_drugs",
+          "interactions_list": [
+            {
+              "interactant": "Benzodiazepines or other CNS depressants",
+              "interaction_type": "Increased risk of respiratory depression and death",
+              "details": "Concomitant use is associated with a boxed warning for profound sedation, respiratory depression, and death. Reserve for when no alternatives are adequate, limit doses, and monitor closely."
+            },
+            {
+              "interactant": "CYP3A4 inhibitors (e.g., clarithromycin, itraconazole)",
+              "interaction_type": "Increased toxicity",
+              "details": "These drugs can increase oxycodone plasma concentrations, raising the risk of respiratory depression and overdose. Use with caution and monitor closely."
+            },
+            {
+              "interactant": "Serotonergic drugs (e.g., SSRIs, SNRIs)",
+              "interaction_type": "Increased risk of serotonin syndrome",
+              "details": "Concomitant use can lead to the development of serotonin syndrome. Monitor for symptoms and discontinue if suspected."
+            }
+          ]
+        }
+      ]
+    },
+    "pioglitazone": {
+      "generic_name": "pioglitazone",
+      "brand_names": [
+        "Actos"
+      ],
+      "dosages_mg": [
+        15,
+        30
+      ],
+      "intended_use": "A medication used to lower blood sugars in patients with type 2 diabetes.",
+      "interactions": [
+        {
+          "type": "food",
+          "details": "Can be administered without regard to meals."
+        },
+        {
+          "type": "alcohol",
+          "details": "Avoid excessive alcohol intake, as it can increase the risk of liver damage."
+        },
+        {
+          "type": "other_drugs",
+          "interactions_list": [
+            {
+              "interactant": "Strong CYP2C8 inhibitors (e.g., gemfibrozil)",
+              "interaction_type": "Increased toxicity",
+              "details": "These drugs can increase pioglitazone exposure by up to three-fold. The maximum recommended dose of Actos is 15 mg per day when co-administered."
+            },
+            {
+              "interactant": "Insulin or sulfonylureas",
+              "interaction_type": "Increased hypoglycemic effect",
+              "details": "Concomitant use can increase the risk of hypoglycemia. The dose of insulin or sulfonylurea should be reduced if hypoglycemia occurs."
+            },
+            {
+              "interactant": "Nitrates",
+              "interaction_type": "Increased risk of heart failure",
+              "details": "Concomitant use with nitrates is not recommended due to a boxed warning for heart failure."
+            }
+          ]
+        }
+      ]
+    },
+    "pitavastatin": {
+      "generic_name": "pitavastatin",
+      "brand_names": [
+        "Livalo",
+        "Zypitamag"
+      ],
+      "dosages_mg": [
+        2
+      ],
+      "intended_use": "A medication used to lower the amount of cholesterol in the blood and decrease the chance of having a heart attack or stroke.",
+      "interactions": [
+        {
+          "type": "food",
+          "details": "Can be taken with or without food."
+        },
+        {
+          "type": "alcohol",
+          "details": "Avoid excessive alcohol use. Alcohol can increase the risk of liver damage, a potential side effect of statins."
+        },
+        {
+          "type": "other_drugs",
+          "interactions_list": [
+            {
+              "interactant": "Erythromycin",
+              "interaction_type": "Increased toxicity",
+              "details": "The dose of pitavastatin should not exceed 1 mg per day when co-administered."
+            },
+            {
+              "interactant": "Rifampin",
+              "interaction_type": "Increased toxicity",
+              "details": "The dose of pitavastatin should not exceed 2 mg per day when co-administered."
+            },
+            {
+              "interactant": "OATP1B1 and BCRP inhibitors",
+              "interaction_type": "Increased toxicity",
+              "details": "These drugs can increase pitavastatin levels, increasing the risk of myopathy. Use with caution and monitor for adverse effects."
+            },
+            {
+              "interactant": "Cholestyramine",
+              "interaction_type": "Decreased efficacy",
+              "details": "Can inhibit the gastrointestinal absorption of pitavastatin, decreasing its effectiveness."
+            }
+          ]
+        }
+      ]
+    },
+    "pravastatin": {
+      "generic_name": "pravastatin",
+      "brand_names": [
+        "Pravachol"
+      ],
+      "dosages_mg": [
+        10,40
+      ],
+      "intended_use": "A medication used to lower the amount of cholesterol in the blood and to decrease the chance of having a heart attack or stroke.",
+      "interactions": [
+        {
+          "type": "food",
+          "details": "Can be taken with or without food."
+        },
+        {
+          "type": "alcohol",
+          "details": "Avoid excessive alcohol use. Alcohol can increase the risk of liver damage, a potential side effect of statins."
+        },
+        {
+          "type": "other_drugs",
+          "interactions_list": [
+            {
+              "interactant": "Fibrates or high-dose niacin",
+              "interaction_type": "Increased risk of myopathy",
+              "details": "Concomitant use with these drugs, particularly in high doses, can increase the risk of muscle-related adverse events. Use with caution."
+            },
+            {
+              "interactant": "Diltiazem",
+              "interaction_type": "No significant interaction",
+              "details": "Unlike many other statins, pravastatin's levels are not significantly affected by co-administration with diltiazem."
+            },
+            {
+              "interactant": "Immunosuppressants (e.g., cyclosporine)",
+              "interaction_type": "Increased toxicity",
+              "details": "Concomitant use may increase the risk of myopathy. Use with caution and monitor for adverse effects."
+            }
+          ]
+        }
+      ]
+    },
+    "repaglinide": {
+      "generic_name": "repaglinide",
+      "brand_names": [
+        "Prandin"
+      ],
+      "dosages_mg": [
+        0.5,1
+      ],
+      "intended_use": "A medication used to treat diabetes.",
+      "interactions": [
+        {
+          "type": "food",
+          "details": "Should be taken within 30 minutes before each meal. If a meal is skipped, the dose should also be skipped to prevent hypoglycemia."
+        },
+        {
+          "type": "alcohol",
+          "details": "Avoid alcohol. Alcohol can increase the risk of hypoglycemia."
+        },
+        {
+          "type": "other_drugs",
+          "interactions_list": [
+            {
+              "interactant": "Strong CYP3A4 or CYP2C8 inhibitors/inducers",
+              "interaction_type": "Altered efficacy",
+              "details": "These drugs can significantly alter repaglinide plasma concentrations. Dosage adjustments are recommended."
+            },
+            {
+              "interactant": "Insulin or sulfonylureas",
+              "interaction_type": "Increased hypoglycemic effect",
+              "details": "Concomitant use can increase the risk of hypoglycemia. Monitor blood glucose closely."
+            },
+            {
+              "interactant": "Beta-blockers",
+              "interaction_type": "Masked symptoms of hypoglycemia",
+              "details": "Beta-blockers can mask the symptoms of hypoglycemia (e.g., tremor, palpitations). Use with caution and monitor blood glucose closely."
+            }
+          ]
+        }
+      ]
+    },
+    "rivastigmine": {
+      "generic_name": "rivastigmine",
+      "brand_names": [
+        "Exelon"
+      ],
+      "dosages_mg": [
+        1.5
+      ],
+      "intended_use": "A medication used to treat some types of mild to moderate dementia.",
+      "interactions": [
+        {
+          "type": "food",
+          "details": "Oral formulations should be taken with food to minimize gastrointestinal adverse effects. The transdermal patch can be applied without regard to food."
+        },
+        {
+          "type": "alcohol",
+          "details": "Use of alcohol is not explicitly contraindicated, but caution is advised as it can have a CNS depressant effect that may be additive with rivastigmine."
+        },
+        {
+          "type": "other_drugs",
+          "interactions_list": [
+            {
+              "interactant": "Anticholinergic medications (e.g., benztropine)",
+              "interaction_type": "Decreased efficacy",
+              "details": "Rivastigmine is a cholinesterase inhibitor and will counteract the effects of anticholinergic drugs. Concomitant use should be avoided."
+            },
+            {
+              "interactant": "Beta-blockers",
+              "interaction_type": "Increased risk of bradycardia",
+              "details": "Both drugs can slow the heart rate, leading to an increased risk of bradycardia and syncope. Avoid or use with extreme caution."
+            },
+            {
+              "interactant": "Metoclopramide",
+              "interaction_type": "Increased risk of extrapyramidal symptoms",
+              "details": "Concomitant use may increase the risk of extrapyramidal symptoms and neuroleptic malignant syndrome-like reactions. Avoid or use with extreme caution."
+            },
+            {
+              "interactant": "Aspirin",
+              "interaction_type": "Increased risk of gastrointestinal bleeding",
+              "details": "Both drugs can increase the risk of GI bleeding. Patients should be monitored closely for symptoms of bleeding."
+            }
+          ]
+        }
+      ]
+    },
+    "rosiglitazone": {
+      "generic_name": "rosiglitazone",
+      "brand_names": [
+        "Avandia"
+      ],
+      "dosages_mg": [
+        4
+      ],
+      "intended_use": "A medication used with diet changes and exercise to control blood sugar levels in diabetes.",
+      "interactions": [
+        {
+          "type": "food",
+          "details": "Can be taken with or without food."
+        },
+        {
+          "type": "alcohol",
+          "details": "Avoid excessive alcohol intake, as it can increase the risk of liver damage."
+        },
+        {
+          "type": "other_drugs",
+          "interactions_list": [
+            {
+              "interactant": "Insulin",
+              "interaction_type": "Increased risk of heart failure",
+              "details": "Concomitant use with insulin is not recommended due to a boxed warning for heart failure."
+            },
+            {
+              "interactant": "Nitrates",
+              "interaction_type": "Increased risk of heart failure",
+              "details": "Concomitant use with nitrates is not recommended."
+            },
+            {
+              "interactant": "Sulfonylureas or metformin",
+              "interaction_type": "Increased hypoglycemic effect",
+              "details": "Concomitant use can increase the risk of hypoglycemia. The dose of the sulfonylurea or metformin should be reduced if hypoglycemia occurs."
+            }
+          ]
+        }
+      ]
+    },
+    "rosuvastatin": {
+      "generic_name": "rosuvastatin",
+      "brand_names": [
+        "Crestor"
+      ],
+      "dosages_mg": [
+        5
+      ],
+      "intended_use": "A medication used to treat high cholesterol and reduce the risk of cardiovascular disease including heart attacks and stroke.",
+      "interactions": [
+        {
+          "type": "food",
+          "details": "Can be administered with or without food."
+        },
+        {
+          "type": "alcohol",
+          "details": "Avoid excessive alcohol use. Alcohol can increase the risk of liver damage, a potential side effect of statins."
+        },
+        {
+          "type": "other_drugs",
+          "interactions_list": [
+            {
+              "interactant": "Gemfibrozil",
+              "interaction_type": "Increased risk of myopathy",
+              "details": "Concomitant use is generally avoided. If used, the rosuvastatin dose should be initiated at 5 mg and not exceed 10 mg per day."
+            },
+            {
+              "interactant": "Antacids (e.g., Maalox)",
+              "interaction_type": "Decreased efficacy",
+              "details": "Co-administration with antacids containing aluminum and magnesium hydroxide reduces rosuvastatin plasma concentrations. Administer rosuvastatin at least 2 hours after the antacid."
+            },
+            {
+              "interactant": "Teriflunomide, capmatinib, fostamatinib, febuxostat",
+              "interaction_type": "Increased toxicity",
+              "details": "These drugs can increase rosuvastatin plasma concentrations. The rosuvastatin dose should be capped (e.g., 10 mg/day with teriflunomide or capmatinib, 20 mg/day with fostamatinib or febuxostat)."
+            }
+          ]
+        }
+      ]
+    },
+    "simvastatin": {
+      "generic_name": "simvastatin",
+      "brand_names": [
+        "Zocor",
+        "Flolipid"
+      ],
+      "dosages_mg": [
+        5,10
+      ],
+      "intended_use": "A medication used to treat high cholesterol and reduce the risk of cardiovascular disease including heart attacks and stroke.",
+      "interactions": [
+        {
+          "type": "food",
+          "details": "Best taken in the evening on an empty stomach to optimize efficacy. Avoid grapefruit products due to a significantly increased risk of muscle toxicity."
+        },
+        {
+          "type": "alcohol",
+          "details": "Avoid excessive alcohol use. Alcohol can increase the risk of liver damage and may raise triglyceride levels, counteracting the drug's intended effect."
+        },
+        {
+          "type": "other_drugs",
+          "interactions_list": [
+            {
+              "interactant": "Potent CYP3A4 inhibitors (e.g., itraconazole, clarithromycin, HIV protease inhibitors)",
+              "interaction_type": "Contraindicated",
+              "details": "These drugs significantly increase simvastatin levels, leading to a high risk of myopathy and rhabdomyolysis. Concomitant use is contraindicated."
+            },
+            {
+              "interactant": "Amiodarone, amlodipine, or ranolazine",
+              "interaction_type": "Increased risk of myopathy",
+              "details": "The dose of simvastatin should not exceed 20 mg per day when co-administered."
+            },
+            {
+              "interactant": "Verapamil, diltiazem, or dronedarone",
+              "interaction_type": "Increased risk of myopathy",
+              "details": "The dose of simvastatin should not exceed 10 mg per day when co-administered."
+            },
+            {
+              "interactant": "Gemfibrozil",
+              "interaction_type": "Contraindicated",
+              "details": "Concomitant use is contraindicated due to a high risk of severe muscle toxicity."
+            }
+          ]
+        }
+      ]
+    },
+    "temazepam": {
+      "generic_name": "temazepam",
+      "brand_names": [
+        "Restoril"
+      ],
+      "dosages_mg": [
+        7.5
+      ],
+      "intended_use": "A sedating medication used to help treat anxiety and insomnia.",
+      "interactions": [
+        {
+          "type": "food",
+          "details": "Can be taken with or without food."
+        },
+        {
+          "type": "alcohol",
+          "details": "Avoid alcohol. Concomitant use with alcohol can increase the CNS depressant effects of temazepam, leading to severe sedation and respiratory depression."
+        },
+        {
+          "type": "other_drugs",
+          "interactions_list": [
+            {
+              "interactant": "Opioids",
+              "interaction_type": "Increased risk of respiratory depression and death",
+              "details": "Concomitant use is associated with a boxed warning for profound sedation, respiratory depression, and death. Reserve for when no alternatives are adequate, limit doses, and monitor closely."
+            },
+            {
+              "interactant": "Other CNS depressants (e.g., sedatives, tranquilizers)",
+              "interaction_type": "Increased CNS depression",
+              "details": "Can cause an additive sedative effect. Use with caution."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_metadata": {
+    "version": "1.0",
+    "last_updated": "2025-07-22",
+    "scope_notes": "This is the final, curated knowledge base for the MedMind AI Capstone 1 MVP, based on the provided list of 36 generic drugs. All brand names, dosages, and intended use information has been populated. Interaction data for each drug is pending curation."
+  }
+}
